@@ -67,10 +67,11 @@ Config.Rewards = {
 			[3] = { name = "7.62mm Bullets", type = "ammo", price = 600, weight = 0.5, quantity = 40, legality = "legal", objectModel = "prop_ld_ammo_pack_03" },
 			[4] = { name = "9mm Bullets", type = "ammo", price = 300, weight = 0.5, quantity = 40, legality = "legal", objectModel = "prop_ld_ammo_pack_01" },
 			[5] = { name = ".45 Bullets", type = "ammo", price = 375, weight = 0.5, quantity = 40, legality = "legal", objectModel = "prop_ld_ammo_pack_01" },
-			[6] = { name = "12 Gauge Shells", type = "ammo", price = 300, weight = 0.5, quantity = 40, legality = "legal", objectModel = "prop_ld_ammo_pack_02" },
-			[7] = { name = "9x18mm Bullets", type = "ammo", price = 350, weight = 0.5, quantity = 40, legality = "legal", objectModel = "prop_ld_ammo_pack_01" },
-			[8] = { name = "Firework Projectile", legality = "illegal", type = "ammo", price = 400, weight = 15, quantity = 1 },
+			[6] = { name = "Musket Ammo", type = "ammo", price = 300, weight = 0.5, quantity = 40, legality = "legal", objectModel = "prop_ld_ammo_pack_02" },
+			[7] = { name = "12 Gauge Shells", type = "ammo", price = 300, weight = 0.5, quantity = 40, legality = "legal", objectModel = "prop_ld_ammo_pack_02" },
+			[8] = { name = "9x18mm Bullets", type = "ammo", price = 350, weight = 0.5, quantity = 40, legality = "legal", objectModel = "prop_ld_ammo_pack_01" },
 			[9] = { name = "Firework Projectile", legality = "illegal", type = "ammo", price = 400, weight = 15, quantity = 1 },
+			[10] = { name = "Firework Projectile", legality = "illegal", type = "ammo", price = 400, weight = 15, quantity = 1 },
 		}
 	},
 	[2] = {
@@ -214,11 +215,12 @@ Config.Rewards = {
 	[15] = {
 		type = "items",
 		reward = {
-			[1] = {name = "Iron Oxide", legality = "legal", quantity = 10, type = "misc", weight = 8},
-			[2] = {name = "Thermite", legality = "illegal", quantity = 1, type = "misc", weight = 20},
+			[1] = {name = "Iron Oxide", legality = "legal", quantity = 5, type = "misc", weight = 8},
+			[2] = {name = "Iron Oxide", legality = "legal", quantity = 5, type = "misc", weight = 8},
 			[3] = {name = "Thermite", legality = "illegal", quantity = 1, type = "misc", weight = 20},
 			[4] = {name = "Thermite", legality = "illegal", quantity = 1, type = "misc", weight = 20},
 			[5] = {name = "Thermite", legality = "illegal", quantity = 1, type = "misc", weight = 20},
+			[6] = {name = "Thermite", legality = "illegal", quantity = 1, type = "misc", weight = 20},
 		}
 	},
 	[16] = {
