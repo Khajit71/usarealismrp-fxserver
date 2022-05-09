@@ -1,4 +1,4 @@
-local KEY = 38 -- "E"
+local KEY = 10-- "E"
 local SOUND_ENABLE = true
 local processed = false
 local harvested = false
@@ -167,7 +167,7 @@ function DrawText3D(x, y, z, distance, text)
         SetTextCentre(1)
         AddTextComponentString(text)
         DrawText(_x,_y)
-        local factor = (string.len(text)) / 380
+        local factor = (string.len(text)) / 100
         DrawRect(_x,_y+0.0125, 0.015+factor, 0.03, 41, 11, 41, 68)
     end
 end
