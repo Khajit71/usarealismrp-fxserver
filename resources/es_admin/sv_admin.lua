@@ -404,6 +404,11 @@ TriggerEvent('es:addGroupCommand', 'goto', "mod", function(source, args, char)
 		TriggerClientEvent('es_admin:teleportUserByCoords', source, fdCoords.x, fdCoords.y, fdCoords.z)
 		TriggerEvent("usa:notifyStaff", '^2^*[STAFF]^r^0 Player ^2'..GetPlayerName(source)..' ['..source..'] ^0 has teleported to a fire department.')
 		return
+	elseif args[2] == "mrpd" then
+		local fdCoords = {x=-469.19918823242, y=-976.70098876953, z=43.691345214844}
+		TriggerClientEvent('es_admin:teleportUserByCoords', source, fdCoords.x, fdCoords.y, fdCoords.z)
+		TriggerEvent("usa:notifyStaff", '^2^*[STAFF]^r^0 Player ^2'..GetPlayerName(source)..' ['..source..'] ^0 has teleported to a misson row police department.')
+		return
 	end
 	if tonumber(args[2]) ~= nil then
 		if GetPlayerName(tonumber(args[2])) then
