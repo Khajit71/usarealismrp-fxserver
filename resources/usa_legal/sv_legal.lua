@@ -37,14 +37,14 @@ TriggerEvent('es:addJobCommand', 'paylawyer', { 'sheriff', 'corrections' , 'judg
 		else
 			if not onTimeout[char.get("_id")] then
 				if char.get('job') == 'judge' then
-					if targetAmount > 0 and targetAmount < 10000 then
+					if targetAmount > 0 and targetAmount < 20000 then
 						TriggerClientEvent('lawyer:checkDistanceForPayment', source, targetSource, targetAmount)
 						onTimeout[char.get("_id")] = os.time()
 					else
 						TriggerClientEvent('usa:notify', source, '~y~Invalid amount, please contact staff to do this.')
 					end
 				else
-					if targetAmount > 500 then targetAmount = POLICE_LAWYER_PAY end
+					if targetAmount > 20000 then targetAmount = POLICE_LAWYER_PAY end
 					TriggerClientEvent('lawyer:checkDistanceForPayment', source, targetSource, targetAmount)
 					onTimeout[char.get("_id")] = os.time()
 				end
