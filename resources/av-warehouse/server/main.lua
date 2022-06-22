@@ -50,7 +50,7 @@ local locations = {
 	[7]={x = 905.85, 	y = 3586.51, 	z = 33.42, hint = "There's a door in Sandy Shores we can try to hack in to."},
 	[8] = {x = -707.56939697266, y = -2448.1044921875, z = 13.944402694702, hint = "There's a set of doors by the lowkey nightclub next to the Los Santos Airport that you can try and hack into."},
 	[9] = {x = -52.059631347656, y = 6395.5522460938, z = 31.490346908569, hint = "There's a door at one of the warehouses across from Clucking Bells in Paleto that you can try and hack into."},
-	[10] = {x = 5003.3681640625, y = -5149.7998046875, z = 2.5803475379944, hint = "There's a backdoor at one of the rusted over warehouses on the island, they're the ones closest to the mansion, if you find it you can try and hack into it."} 
+--	[10] = {x = 5003.3681640625, y = -5149.7998046875, z = 2.5803475379944, hint = "There's a backdoor at one of the rusted over warehouses on the island, they're the ones closest to the mansion, if you find it you can try and hack into it."}  | Removed this one as it causes issues whenever entering/leaving. Do not activate again unless you fix it please - Khajit
 }
 
 RegisterServerCallback {
