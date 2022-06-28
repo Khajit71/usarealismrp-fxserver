@@ -84,7 +84,7 @@ function DepositPayCheck(char)
         if bcsoRank == 2 then
             paycheckAmount = 1100 --Sr Correctional Deputy
         elseif bcsoRank == 3 then
-            paycheckAmount = 1200 --Correctional Corporal
+            paycheckAmount = 1200 --Probational Deputy
         elseif bcsoRank == 4 then
             paycheckAmount = 850 -- Sheriff's Deputy
         elseif bcsoRank == 5 then
