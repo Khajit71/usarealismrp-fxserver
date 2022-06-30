@@ -28,11 +28,11 @@ local STORE_ITEMS = {
     { name = "Empty .45 Mag [18]", type = "magazine", price = 120, weight = 7, receives = ".45", MAX_CAPACITY = 18, currentCapacity = 0 },
   },
   ["Ammunition"] = {
-    { name = "9mm Bullets", type = "ammo", price = 200, weight = 0.5, quantity = 10, objectModel = "prop_ld_ammo_pack_01" },
-    { name = ".50 Cal Bullets", type = "ammo", price = 350, weight = 0.5, quantity = 10, objectModel = "prop_ld_ammo_pack_01" },
-    { name = ".45 Bullets", type = "ammo", price = 250, weight = 0.5, quantity = 10, objectModel = "prop_ld_ammo_pack_01" },
-    { name = "12 Gauge Shells", type = "ammo", price = 200, weight = 0.5, quantity = 10, objectModel = "prop_ld_ammo_pack_03" },
-    { name = "Musket Ammo", type = "ammo", price = 300, weight = 0.5, quantity = 10, objectModel = "prop_ld_ammo_pack_03" }
+    { name = "9mm Bullets", type = "ammo", price = 150, weight = 0.5, quantity = 10, objectModel = "prop_ld_ammo_pack_01" },
+    { name = ".50 Cal Bullets", type = "ammo", price = 200, weight = 0.5, quantity = 10, objectModel = "prop_ld_ammo_pack_01" },
+    { name = ".45 Bullets", type = "ammo", price = 150, weight = 0.5, quantity = 10, objectModel = "prop_ld_ammo_pack_01" },
+    { name = "12 Gauge Shells", type = "ammo", price = 150, weight = 0.5, quantity = 10, objectModel = "prop_ld_ammo_pack_03" },
+    { name = "Musket Ammo", type = "ammo", price = 200, weight = 0.5, quantity = 10, objectModel = "prop_ld_ammo_pack_03" }
   }
 }
 
