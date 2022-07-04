@@ -20,7 +20,20 @@ local colors = { -- https://wiki.gtanet.work/index.php?title=Vehicle_Colors
 	['Creek Brown'] = 95,
 	['Ice White'] = 111,
 	['Frost White'] = 112,
-	['Brushed Steel'] = 117
+	['Brushed Steel'] = 117,
+	['Matte Black'] = 12,
+	['Matte Gray'] = 13,
+	['Matte Red'] = 39,
+	['Matte Orange'] = 41,
+	['Matte Yellow'] = 42,
+	['Matte Blue'] = 83,
+	['Matte Green'] = 128,
+	['Matte White'] = 131,
+	['Matte Purple'] = 148,
+	['Matte Desert Tan'] = 154,
+	['Metallic Champagne'] = 93,
+	['Pure Gold'] = 158,
+	['Brushed Gold'] = 159
 }
 
 --------------- LOCATIONS ----------------------
