@@ -249,7 +249,7 @@ local vehicleShopItems = {
 			{make = "Obey", model = "8F Drafter", price = 50000, hash = "drafter", storage_capacity = 100.0},
 			{make = "Dinka", model = "Sugoi", price = 30000, hash = "sugoi", storage_capacity = 100.0},
 			{make = "Enus", model = "Paragon", price = 90000, hash = "paragon", storage_capacity = 100.0},
-			{make = "Emperor", model = "Vectre", price = 65000, hash = "vectre", storage_capacity = 125.0},
+			--{make = "Emperor", model = "Vectre", price = 65000, hash = "vectre", storage_capacity = 125.0}, This car makes people crash
 			{make = "Pfister", model = "Growler", price = 70000, hash = "growler", storage_capacity = 125.0},
 			{make = "Pfister", model = "Comet S2", price = 70500, hash = "comet6", storage_capacity = 125.0},
 			{make = "Invetero", model = "Coquette D10", price = 90000, hash = "coquette4", storage_capacity = 145.0},
