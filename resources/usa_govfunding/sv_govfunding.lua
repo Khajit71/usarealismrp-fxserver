@@ -4,7 +4,7 @@ TriggerEvent('es:addJobCommand', 'govcheck', {"sheriff", "corrections", "judge",
     local char = exports["usa-characters"]:GetCharacter(usource)
     local fundAccount = job
     if job == "corrections" then
-        if char.get("bcsoRank") < 5 then
+        if char.get("bcsoRank") < 8 then
             TriggerClientEvent("usa:notify", usource, "Not a high enough rank!")
             return
         else
