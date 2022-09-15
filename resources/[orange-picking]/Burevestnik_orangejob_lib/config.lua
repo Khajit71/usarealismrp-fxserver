@@ -29,9 +29,9 @@ Config.Translation = {
 }
 
 Config.Blips = {
-    [1] = {["x"] = 416.5863, ["y"] = 6520.8721, ["z"] = 26.7128, ["id"] = 569, ["color"] = 52, ["scale"] = 0.7, ["text"] = "Orange Factory"},
-    [2] = {["x"] = 2564.1194, ["y"] = 4680.6182, ["z"] = 33.0768, ["id"] = 569, ["color"] = 52, ["scale"] = 0.7, ["text"] = "Orange Factory"},
-    [3] = {["x"] = -1933.6201, ["y"] = 2039.0726, ["z"] = 140.8295, ["id"] = 569, ["color"] = 52, ["scale"] = 0.7, ["text"] = "Orange Factory"},
+    [1] = {["x"] = 408.3538, ["y"] = 6497.1899, ["z"] = 27.8204, ["id"] = 569, ["color"] = 52, ["scale"] = 0.7, ["text"] = "Orange Factory"}, -- Paleto
+    [2] = {["x"] = 2564.1194, ["y"] = 4680.6182, ["z"] = 33.0768, ["id"] = 569, ["color"] = 52, ["scale"] = 0.7, ["text"] = "Orange Factory"}, -- Grapeseed
+    [3] = {["x"] = -1933.6201, ["y"] = 2039.0726, ["z"] = 140.8295, ["id"] = 569, ["color"] = 52, ["scale"] = 0.7, ["text"] = "Orange Factory"}, -- Vineyard
 }
 
 Config.Orange = {
