@@ -84,7 +84,8 @@ local HARDWARE_STORE_ITEMS = {
   ["Electronics"] = {
     { name = "Cell Phone", price = 650, type = "misc", quantity = 1, legality = "legal", weight = 3, objectModel = "prop_npc_phone_02", blockedInPrison = true },
     { name = "Radio", price = 2000, type = "misc", quantity = 1, legality = "legal", weight = 10, objectModel = "prop_cs_hand_radio" },
-    { name = "Speaker", price = 5000, legality = "legal", quantity = 1, type = "misc", weight = 20, objectModel = "sm_prop_smug_speaker" }
+    { name = "Speaker", price = 5000, legality = "legal", quantity = 1, type = "misc", weight = 20, objectModel = "sm_prop_smug_speaker" },
+    { name = "Tablet", price = 1000, type = "misc", quantity = 1, legality = "legal", weight = 3, objectModel = "imp_prop_impexp_tablet", blockedInPrison = true}
   },
   ["Misc"] = {
     { name = "Repair Kit", price = 500, type = "misc", quantity = 1, legality = "legal", weight = 20, objectModel = "imp_prop_tool_box_01a"},
