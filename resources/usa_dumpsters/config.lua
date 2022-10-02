@@ -14,7 +14,7 @@ Config.DumpsterSearchItems = {
 	{ name = "Condoms", price = 5, type = "misc", quantity = 1, legality = "legal", weight = 1, objectModel = "ng_proc_candy01a" },
 	{ name = "Ceramic Tubing", price = 30, type = "misc", quantity = 5, legality = "legal", weight = 5},
 	{ name = "Bic Lighter", price = 10, type = "misc", quantity = 1, legality = "legal", weight = 1, objectModel = "prop_cs_pills", blockedInPrison = true},
-	{ name = "First Aid Kit", price = 100, type = "misc", quantity = 1, legality = "legal", weight = 15, objectModel = "v_ret_ta_firstaid"},
+	{ name = "First Aid Kit", price = 100, type = "misc", quantity = 1, legality = "legal", weight = 5, objectModel = "v_ret_ta_firstaid"},
 	{ name = "Large Scissors", price = 15, type = "misc", quantity = 1, legality = "legal", weight = 5, objectModel = "prop_cs_scissors"},
     { name = "Sturdy Rope", price = 100, type = "misc", quantity = 1, legality = "legal", weight = 15, objectModel = "prop_devin_rope_01  "},
     { name = "Bag", price = 100, type = "misc", quantity = 1, legality = "legal", weight = 3, objectModel = "prop_paper_bag_01"},
