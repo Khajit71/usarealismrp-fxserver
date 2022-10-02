@@ -113,7 +113,7 @@ function DepositPayCheck(char)
     elseif job == "eventPlanner" then
         paycheckAmount = 800
     else
-        paycheckAmount = 25 -- welfare amount (no job)
+        paycheckAmount = 100 -- welfare amount (no job)
         isWelfare = true
     end
 
