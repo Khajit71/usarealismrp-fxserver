@@ -41,7 +41,7 @@ locations = {
 	{ ['x'] = 2148.8, ['y'] = 4798.39, ['z'] = 41.1, ['noBlip'] = true}, -- Grapeseed airport
 	{ ['x'] = -600.677734375, ['y'] = -1085.0517578125, ['z'] = 22.179504394531, noBlip = true}, -- Cat Cafe
 	-- Luxury Autos
-	{ ['x'] = -781.39, ['y'] = -235.93, ['z'] = 37.08, ['noBlip'] = true},
+	{ ['x'] = -742.19, ['y'] = -261.19, ['z'] = 36.94, ['noBlip'] = true},
 	-- Mosleys Autos
 	{ ['x'] = -52.32, ['y'] = -1692.79, ['z'] = 29.49, ['noBlip'] = true},
 	-- Boat Dock
