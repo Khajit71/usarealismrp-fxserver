@@ -43,7 +43,7 @@ Queue.MaxPublicPlayerCount = 1500000 -- temporary because broken
 local debug = false
 local displayQueue = false
 local initHostName = false
-local maxPlayers = 110
+local maxPlayers = 100
 
 local tostring = tostring
 local tonumber = tonumber
